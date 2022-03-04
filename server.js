@@ -16,10 +16,10 @@ app.get('/', (req, res) => {
 
 //DEFINE ROUTES__
 
-app.use('/api/users', require('./routes/api/users'));
+app.use('/api/register', require('./routes/api/register'));
 app.use('/api/profile', require('./routes/api/profile'));
 app.use('/api/posts', require('./routes/api/post'));
-app.use('/api/auth', require('./routes/api/auth'));
+app.use('/api/login', require('./routes/api/login'));
 
 //port to listen the server --
 const PORT = process.env.PORT || 5000;
