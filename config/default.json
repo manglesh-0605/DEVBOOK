@@ -1,4 +1,6 @@
 {
     "mongoURI":"mongodb+srv://manglesh123:manglesh123@devbook.g6bac.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
-    "jwtSecretToken":"codePython@0605/main/devbook"
+    "jwtSecretToken":"codePython@0605/main/devbook",
+    "githubClientId":"9133de4262b5fb98b9d2",
+    "githubSecret":"e85c95af6d720a5032b554a679c2459ec3663c98"
 }
